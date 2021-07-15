@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.steps-container {
+  background: #f4f5f7;
+  min-height: 90vh;
+}
+
+.card-box-main {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.card-box {
+  width: 100%;
+  max-height: 500px;
+  padding: 15px 15px 15px 15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.step-number {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  background: #449b5a;
+  color: white;
+  font-size: small;
+  font-weight: 600;
+}
+
+.step-img-box {
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px 10px 10px;
+}
+
+.step-img {
+  width: 100px;
+  height: 100px;
+}
+
+.step-detail-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.step-name {
+  align-self: center;
+  padding: 10px 0 10px 0;
+  font-weight: 700;
+  font-size: large;
+}
+
+.dash {
+  align-self: center;
+  width: 20%;
+  height: 3px;
+  border-radius: 25px;
+  background: #449b5a;
+}
+
+.step-detail {
+  text-align: center;
+  padding: 15px 10px 10px 10px;
+  font-size: small;
+  color: grey;
+}
+
+div.col-pad {
+  margin-bottom: 30px;
+}

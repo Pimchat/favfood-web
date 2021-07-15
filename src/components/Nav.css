@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  background: #fefefa;
+  height: 80px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menu-left {
+  position: relative;
+  left: 80px;
+}
+
+.menu-right {
+  position: absolute;
+  right: 80px;
+}
+
+.menu {
+  margin-right: 20px;
+}
